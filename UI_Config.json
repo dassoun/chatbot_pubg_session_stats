@@ -1,0 +1,43 @@
+{
+    "output_file": "Settings/settings.json",
+    
+    "PubgApiKey": {
+        "type": "textbox",
+        "value": "Put your PUBG API Key here",
+        "label": "PUBG API Key",
+        "tooltip": "Your PUBG API Key. Can be found here: https://developer.pubg.com/",
+        "group": "PUBG"
+    },
+    "PlayerName": {
+        "type": "textbox",
+        "value": "PhobyJuan",
+        "label": "Player's Name",
+        "tooltip": "The name of the player you want to track.",
+        "group": "PUBG"
+    },
+    "FileDirectory": {
+        "type": "textbox",
+        "value": "C:\\pubg",
+        "label": "Data Files Directory",
+        "tooltip": "The generated data files will be generated in this directory (it has to exist)",
+        "group": "Core"
+    },
+    "Frequency": {
+        "type": "slider",
+        "value": 5,
+        "min": 1,
+        "max": 10,
+        "ticks": 1,
+        "label": "Frequency (minutes)",
+        "tooltip": "Time (in minutes) between refreshs",
+        "group": "Core"
+    },
+    "Timezone": {
+        "type": "textbox",
+        "value": "Europe/Paris",
+        "label": "Timezone",
+        "tooltip": "Timezones can be found here: https://www.php.net/manual/fr/timezones.php",
+        "group": "Core"
+    }
+}
+
